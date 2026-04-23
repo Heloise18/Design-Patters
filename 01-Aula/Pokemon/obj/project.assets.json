@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design Patterns\\01-Aula\\Doke\\Doke.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design-Patters\\01-Aula\\Pokemon\\Doke.csproj",
       "projectName": "Doke",
-      "projectPath": "C:\\Users\\disrct\\Desktop\\Design Patterns\\01-Aula\\Doke\\Doke.csproj",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\01-Aula\\Pokemon\\Doke.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\disrct\\Desktop\\Design Patterns\\01-Aula\\Doke\\obj\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\01-Aula\\Pokemon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
