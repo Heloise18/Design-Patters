@@ -86,27 +86,28 @@ Pokemons Ditto = new(
 );
 
 Pokemons Winner;
-static Pokemons Battle(Pokemons pokemon1, Pokemons Ditto, Pokemons Winner )
-{
-    int atackP1 = Random.Shared.Next(0,4);
-    int atackP2 = Random.Shared.Next(0,4);
+// static Pokemons Battle(Pokemons pokemon1, Pokemons Ditto, Pokemons Winner )
 
-    pokemon1.HP -= pokemon1.Strikes[atackP1].Damage;
+// {
+//     int atackP1 = Random.Shared.Next(0,4);
+//     int atackP2 = Random.Shared.Next(0,4);
+
+//     pokemon1.HP -= pokemon1.Strikes[atackP1].Damage;
     
-    Console.WriteLine($"{pokemon1.Name}            |   {Ditto.Name}");
-    Console.WriteLine($"Attack: {pokemon1.Strikes[atackP1].Name}          {Ditto.Strikes[atackP2].Name}");
-    Console.WriteLine($"HP: {pokemon1.HP}                   {Ditto.HP}");
+//     Console.WriteLine($"{pokemon1.Name}            |   {Ditto.Name}");
+//     Console.WriteLine($"Attack: {pokemon1.Strikes[atackP1].Name}          {Ditto.Strikes[atackP2].Name}");
+//     Console.WriteLine($"HP: {pokemon1.HP}                   {Ditto.HP}");
 
-    if(pokemon1.HP > Ditto.HP)
-        Winner = pokemon1;
-    else
-        Winner = Ditto;
+//     if(pokemon1.HP > Ditto.HP)
+//         Winner = pokemon1;
+//     else
+//         Winner = Ditto;
 
-    if (pokemon1.HP < 0)
-       return Ditto;
-    if(Ditto.HP < 0)
-        return pokemon1;
-}
+//     if (pokemon1.HP < 0)
+//        return Ditto;
+//     if(Ditto.HP < 0)
+//         return pokemon1;
+// }
  
 
 Console.WriteLine(new string('=',20) + "Vencedor!" + new string('=',20));
