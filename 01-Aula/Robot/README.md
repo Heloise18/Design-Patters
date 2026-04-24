@@ -8,7 +8,6 @@ O robô inicia **caminhando**. Durante a execução:
 
   * 20% de chance → mudar para **Combate**
   * 5% de chance → mudar para **Hackeado**
-
 * Enquanto **Combate**
 
   * 5% de chance → mudar para **Hackeado**
