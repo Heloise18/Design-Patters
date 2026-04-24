@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0-windows7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\disrct\\.nuget\\packages\\": {}
@@ -13,24 +13,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\00-Classic\\00-Classic.csproj",
-      "projectName": "00-Classic",
-      "projectPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\00-Classic\\00-Classic.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\Lady\\Lady.csproj",
+      "projectName": "Lady",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\Lady\\Lady.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\00-Classic\\obj\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\Lady\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net9.0-windows"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
           "projectReferences": {}
         }
       },
@@ -47,8 +47,8 @@
       "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -63,6 +63,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.116/PortableRuntimeIdentifierGraph.json"

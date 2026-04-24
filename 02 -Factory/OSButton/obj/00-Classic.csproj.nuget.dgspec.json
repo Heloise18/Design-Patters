@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\00-Classic\\00-Classic.csproj": {}
+    "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\OSButton\\00-Classic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\00-Classic\\00-Classic.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\OSButton\\00-Classic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\00-Classic\\00-Classic.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\OSButton\\00-Classic.csproj",
         "projectName": "00-Classic",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\00-Classic\\00-Classic.csproj",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\OSButton\\00-Classic.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\00-Classic\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\OSButton\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
