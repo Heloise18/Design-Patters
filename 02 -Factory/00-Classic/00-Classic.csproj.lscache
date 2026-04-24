@@ -55,14 +55,10 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 [sourceFiles]
 Application.cs
 Interface/
+ Factory.cs
  IButton.cs
- IFactory.cs
-Linux/
- LinuxButton.cs
- LinuxFatctory.cs
-MAC/
- MacButton.cs
- MacFactory.cs
+Linux/LinuxButton.cs
+MAC/MacButton.cs
 obj/Debug/net9.0/
  .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
  00-Classic.AssemblyInfo.cs

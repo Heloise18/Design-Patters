@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\02 -Factory.csproj",
-      "projectName": "02 -Factory",
-      "projectPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\02 -Factory.csproj",
+      "projectUniqueName": "c:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\exemplo\\exemplo.csproj",
+      "projectName": "exemplo",
+      "projectPath": "c:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\exemplo\\exemplo.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\obj\\",
+      "outputPath": "c:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\exemplo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"

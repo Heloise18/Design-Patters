@@ -13,18 +13,18 @@ primary
 lastDtbSucceeded
 
 [properties]
-AssemblyName=02 -Factory
+AssemblyName=exemplo
 CommandLineArgsForDesignTimeEvaluation=-langversion:13.0 -define:TRACE
 CompilerGeneratedFilesOutputPath=
 MaxSupportedLangVersion=13.0
 ProjectAssetsFile=<PATH>obj/project.assets.json
-RootNamespace=_02__Factory
+RootNamespace=exemplo
 RunAnalyzers=
 RunAnalyzersDuringLiveAnalysis=
 SolutionPath=*Undefined*
 TargetFrameworkIdentifier=.NETCoreApp
-TargetPath=<PATH>bin/Debug/net9.0/02 -Factory.dll
-TargetRefPath=<PATH>obj/Debug/net9.0/ref/02 -Factory.dll
+TargetPath=<PATH>bin/Debug/net9.0/exemplo.dll
+TargetRefPath=<PATH>obj/Debug/net9.0/ref/exemplo.dll
 TemporaryDependencyNodeTargetIdentifier=net9.0
 
 [commandLineArguments]
@@ -43,8 +43,8 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 /debug:portable
 /filealign:512
 /optimize-
-/out:"obj\Debug\net9.0\02 -Factory.dll"
-/refout:"obj\Debug\net9.0\refint\02 -Factory.dll"
+/out:obj\Debug\net9.0\exemplo.dll
+/refout:obj\Debug\net9.0\refint\exemplo.dll
 /target:exe
 /warnaserror-
 /utf8output
@@ -53,14 +53,27 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+Application.cs
+Factories/
+ IFactory.cs
+ Imp/
+  CirculoFactory.cs
+  QuadradoFactory.cs
+  TrianguloFactory.cs
+FormasGeometricas/
+ IFormaGeometrica.cs
+ Imp/
+  Circulo.cs
+  Quadrado.cs
+  Triangulo.cs
 obj/Debug/net9.0/
  .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
- 02 -Factory.AssemblyInfo.cs
- 02 -Factory.GlobalUsings.g.cs
+ exemplo.AssemblyInfo.cs
+ exemplo.GlobalUsings.g.cs
 Program.cs
 
 [metadataReferences]
-../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.15/ref/net9.0/
+../../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.15/ref/net9.0/
  Microsoft.CSharp.dll
  Microsoft.VisualBasic.Core.dll
  Microsoft.VisualBasic.dll
@@ -227,17 +240,17 @@ Program.cs
  WindowsBase.dll
 
 [analyzerReferences]
-../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.15/analyzers/dotnet/cs/
+../../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.15/analyzers/dotnet/cs/
  Microsoft.Interop.ComInterfaceGenerator.dll
  Microsoft.Interop.JavaScript.JSImportGenerator.dll
  Microsoft.Interop.LibraryImportGenerator.dll
  Microsoft.Interop.SourceGeneration.dll
  System.Text.Json.SourceGeneration.dll
  System.Text.RegularExpressions.Generator.dll
-../../../../../Program Files/dotnet/sdk/9.0.116/Sdks/Microsoft.NET.Sdk/analyzers/
+../../../../../../Program Files/dotnet/sdk/9.0.116/Sdks/Microsoft.NET.Sdk/analyzers/
  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
  Microsoft.CodeAnalysis.NetAnalyzers.dll
 
 [analyzerConfigFiles]
-../../../../../Program Files/dotnet/sdk/9.0.116/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
-obj/Debug/net9.0/02 -Factory.GeneratedMSBuildEditorConfig.editorconfig
+../../../../../../Program Files/dotnet/sdk/9.0.116/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
+obj/Debug/net9.0/exemplo.GeneratedMSBuildEditorConfig.editorconfig

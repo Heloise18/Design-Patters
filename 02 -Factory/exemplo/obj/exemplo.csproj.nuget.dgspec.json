@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\02 -Factory.csproj": {}
+    "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\exemplo\\exemplo.csproj": {}
   },
   "projects": {
-    "c:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\02 -Factory.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\exemplo\\exemplo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\02 -Factory.csproj",
-        "projectName": "02 -Factory",
-        "projectPath": "c:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\02 -Factory.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\exemplo\\exemplo.csproj",
+        "projectName": "exemplo",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\exemplo\\exemplo.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Design-Patters\\02 -Factory\\exemplo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"

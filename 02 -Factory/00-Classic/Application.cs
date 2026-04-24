@@ -1,9 +1,10 @@
-public class Application(IFactory factory)
+
+public class Application(string type, Factory factory)
 {
-    private IFactory Factory = factory;
 
     public void Logic()
     {
-        Factory.Create();
+        var fabrica = factory.Criar(type);
+        fabrica.vozes();
     }
 }

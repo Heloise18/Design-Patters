@@ -1,8 +1,4 @@
-public class WindowsFactory : IFactory
+public class WindowsFactory 
 {
-    public IButton Create()
-    {
-        Console.WriteLine("Botao Windos criado com sucesso");
-        return new WindowsButton();
-    }
+   
 }
