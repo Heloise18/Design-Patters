@@ -1,8 +1,9 @@
+using robot;
+
 public class Hackeado : IComportamento
 {
-    public void Probality()
+    public void Probality(Robot robot)
     {
-        Console.WriteLine("Hackeado pelo angel of the night.....\n");
-        new Hackeado();
+        Console.WriteLine("HaCkEaDo PeLo aNgEl oF ThE nIgHt :/ ");
     }
 }

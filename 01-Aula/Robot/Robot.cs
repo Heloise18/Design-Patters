@@ -7,6 +7,6 @@ public class Robot (IComportamento comportamento)
 
     public void Agir()
     {
-        Strategy.Probality();
+        Strategy.Probality(this);
     }
 }

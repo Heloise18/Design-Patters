@@ -1,4 +1,6 @@
+using robot;
+
 public interface IComportamento
 {
-    void Probality();
+    void Probality(Robot robot);
 }
