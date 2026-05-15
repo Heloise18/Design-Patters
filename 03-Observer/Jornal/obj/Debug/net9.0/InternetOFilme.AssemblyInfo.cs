@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InternetOFilme")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce29ebe6ce0aea7f285c38e5e2eddbf9f67e5874")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff87c6293f8706b7f85f9d51f1af4f48f3b8cd33")]
 [assembly: System.Reflection.AssemblyProductAttribute("InternetOFilme")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InternetOFilme")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
